@@ -1,0 +1,119 @@
+//Обнуление
+@import "./nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Oswald&family=Roboto:wght@100&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+
+body{
+    background: #FFFFFF;
+}
+
+.travel {
+    &__body {
+        margin: auto;
+        max-width: 1190px;
+    }
+
+    &__top {
+        background: url(../img/Combined\ shape\ 4.png) 0 0 no-repeat;
+    }
+
+    &__title {
+        margin-top: 40px;
+        text-align: center;
+        font-family: 'Acme';
+        font-size: 14px;
+        line-height: 40px;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+        color: #273D46;
+    }
+
+    &__info {
+        font-size: 36px;
+        line-height: 50px;
+        color: #273D46;
+        font-family: 'Akshar';
+        max-width: 751px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 111px;
+    }
+
+    &__icon {
+        display:flex;
+        align-items:center;
+        justify-content: center;
+    }
+
+    &__img {
+        margin: 0  auto;
+        width: 841px;
+        height: 561px;
+        margin-bottom: 77px;
+    }
+
+    &__textbottom {
+    }
+
+    &__text {
+        max-width: 766px;
+        height: 242px;
+        font-family: 'Akshar';
+        font-size: 24px;
+        line-height: 40px;
+        color: #273D46;
+        margin-bottom: 78px;
+        margin-left: 192px;
+    }
+
+    &__bottom {
+    }
+
+    &__list {
+        max-width: 458px;
+        margin-left: 188px;
+        margin-bottom: 25px;
+        li{
+            font-family: 'Acme';
+            font-size: 20px;
+            line-height: 36px;
+            color: #273D46;
+            background: url(../img/check\ icon.png) left no-repeat;
+            padding-left: 34px;
+            &:nth-child(1){
+            }
+            &:nth-child(2){
+                font-style: italic;
+                color: #80B7B3;
+            }
+            &:nth-child(3){
+                font-weight: bold;
+            }
+            &:nth-child(4){
+                text-decoration-line: line-through;
+            }
+        }
+    }
+
+    &__button {
+        margin-bottom: 46px;
+        display: inline-block;
+        background-color: #80B7B3;
+        padding: 0 30px;
+        font-style: 'Acme';
+        height: 44px;
+        line-height: 44px;
+        border-radius: 20px;
+        margin-left: 188px;
+        box-shadow: 0px 6px 40px rgba(128, 183, 179, 0.54);
+        font-size: 14px;
+        line-height: 40px;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        span {
+            background: url(../img/Shape\ 2.png) right no-repeat;
+            padding: 0px 30px 0px 0px;
+        }
+            }
+        }
